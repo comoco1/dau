@@ -1,0 +1,92 @@
+
+*{
+    background-color: azure;
+    
+}
+
+
+
+
+
+nav{
+    height: 50px;
+
+}
+section{
+    height: calc(100vh - 250px);            
+    display : flex;                                     /* 100vh -> 화면 100퍼센트 다 쓰겠다. */
+}
+
+
+aside{
+    border-color:  aqua;
+    border-style: solid;
+    
+}
+
+.left{
+    flex : 3;
+    border : 1px gray solid;
+}
+.right{
+    flex : 1;
+    border : 1px gray solid;
+}
+h1{
+    text-align: left;
+    font-family: Cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.dd nav ul li{
+    display: inline;
+    letter-spacing: 5px;
+}
+.dd nav ul li:hover{
+    background-color: aqua;
+}
+.dd nav ul{
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+    text-align: center;
+}
+a{
+    text-decoration: none;  
+}
+h2{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    font-family: Cursive;
+    
+}
+h4{
+    font-size: 30px;
+    color: blue;
+}
+section{
+    display: flex;
+}
+.left{
+    flex: 1;
+    border-color:  aqua;
+    border-style: solid;
+}
+.right{
+    flex: 1;
+    border-color:  aqua;
+    border-style: solid;
+}
+.middle{
+    flex:1; 
+}
+
+
+.middle h4,.right h4{
+    text-align: center;
+}
+
+footer{
+    border-top: 2px solid aqua;
+    margin-top: 50px;
+}
